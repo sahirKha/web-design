@@ -1,0 +1,132 @@
+h
+{font-size: 30px;
+    font-family: Viner Hand ITC;
+    color:darkred;
+     float:right;
+    display: block;
+     font-weight:bolder;
+    position: absolute;
+    top:2%;
+    right:2%;}
+
+.list
+  {
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color:wheat;
+    overflow: hidden;
+    opacity:0.8;
+    width:100%;
+    
+    }
+ .list li{
+     font-size:30px;
+     width:150px;
+     float:left;
+     display:block;
+     padding:10px;
+     font-family:Times New Roman;
+     font-weight: bolder; 
+     }
+     
+    .list li a{
+     color:red;
+     text-decoration: none;
+     opacity: 0.9;
+     
+     width:200;
+     
+    }
+    .list a:hover{
+        color:rgb(225, 65, 204);
+    }
+    .carousel slide{
+        height:10%;
+        width:50%;
+    }
+    #carouselExampleCaptions{
+        max-width:100%;
+        opacity:1;    
+    }
+    .col img{
+     height:500px;
+     width:500px;
+     border-radius: 50%;
+     position:absolute;
+     left:2%;
+     top:87%;
+     margin:0;
+     border: 10px;   
+     }
+    
+    .left img{
+        border: whitesmoke solid;
+        border-radius: 20px;
+        align:left;}
+
+        .text{
+            color:rgb(255, 0, 55);
+            font-size: 30px;
+            position:relative;
+            left:10%; }
+           
+        .price1{
+            text-decoration: underline;
+            font-size: 20px;
+            background-color:black;
+            padding:15px;
+            height:70px;
+            width:200px;
+            position:relative;
+            left:30%;
+            color:blue;
+            text-align: center;
+            border-radius:20px;}        
+          .price1:hover{color:aqua;
+            cursor: pointer;
+            background-color: brown;}    
+
+        .text1{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            left:20%;
+            color: darkmagenta;
+        }     
+          .right{
+              position:absolute;
+              right:0%;
+              top:161%;
+          }
+          
+          .right img{
+            border: whitesmoke solid;
+            border-radius: 20px;
+          }
+
+          .price2{
+            text-decoration: underline;
+            font-size: 20px;
+            background-color:black;
+            padding:15px;
+            height:70px;
+            width:200px;
+            position:relative;
+            left:35%;
+            color:blue;
+            text-align: center;
+            border-radius:20px;}        
+          .price2:hover{color:aqua;
+            cursor: pointer;
+            background-color: brown;}    
+
+        .text2{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: darkmagenta;
+        }
+ 
+   
+  
